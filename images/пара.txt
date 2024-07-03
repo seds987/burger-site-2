@@ -1,0 +1,19 @@
+CodePan - сайт для html css
+live server - розширення для vs code
+
+cowxef-jehgUt-4nudtu 
+github-repositoriy(1)
+
+header  - верх
+footer -низ
+
+ul - крапки
+ol - цифри
+
+display: flex; - рядок  flex-direction: row; -теж flex-direction: column - колонка
+
+font-size: -розммір шрпифту
+
+
+
+
