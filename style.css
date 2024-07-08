@@ -16,7 +16,6 @@ body {
     gap: 60px;
     flex-direction: row;
     font-size: 16px;
-    margin-top: 25px;
 }
 
 .burger {
@@ -26,5 +25,32 @@ body {
 
 header {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 28px 32px 0 32px;
+}
+
+.label-button {
+    height: 40px;
+    color: #FF4D4F;
+    background-color: #FFEDED;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 24px 8px 24px;
+
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 76px;
+
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    
 }
 
