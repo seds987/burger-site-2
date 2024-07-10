@@ -16,6 +16,7 @@ body {
     gap: 60px;
     flex-direction: row;
     font-size: 16px;
+    text-decoration: underline;
 }
 
 .burger {
