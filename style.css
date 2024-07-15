@@ -10,13 +10,19 @@ body {
     font-family: Rubik;
 }
 
+.container {
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
 .header-destination {
     list-style-type: none;
     display: flex;
     gap: 60px;
     flex-direction: row;
     font-size: 16px;
-    text-decoration: underline;
+    
 }
 
 .burger {
@@ -28,7 +34,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 28px 32px 0 32px;
+    padding: 28px 32px 0 32px;
+
 }
 
 .label-button {
@@ -55,3 +62,32 @@ header {
     
 }
 
+.nav-active{
+    border-bottom: 2px solid #5243C2;
+    padding-bottom: 10px;
+}
+
+.Hero_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.hero_subtitle {
+    max-width: 482px;
+    font-size: 20px;
+    color: #676D77;
+}
+
+
+.hero-left-title {
+    font-size: 72px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.header-destination li a {
+    text-decoration: none;
+    color: inherit;
+}
