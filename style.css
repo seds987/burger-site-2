@@ -1,65 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-
 *{
     padding: 0;
     margin: 0;
 }
 
-body {
+body{
     font-family: Rubik;
 }
 
-.container {
+.container{
     max-width: 1480px;
     margin: 0 auto;
-    padding: 0 32px;
+    padding: 0 20px;
 }
 
-.header-destination {
-    list-style-type: none;
-    display: flex;
-    gap: 60px;
-    flex-direction: row;
-    font-size: 16px;
-    
-}
-
-.burger {
-    width: 80px;
-    height: 80px;
-}
-
-header {
+.header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 28px 32px 0 32px;
-
 }
 
-.label-button {
-    height: 40px;
-    color: #FF4D4F;
-    background-color: #FFEDED;
-    border: none;
-    border-radius: 20px;
-    padding: 8px 24px 8px 24px;
-
-}
-
-.header-logo {
+.header-nav{
+    list-style-type: none;
     display: flex;
-    align-items: center;
-    gap: 76px;
-
-}
-
-.contacts {
-    display: flex;
-    align-items: center;
     gap: 60px;
-    
+    font-size: 16px;
+}
+
+.header-nav li a{
+    text-decoration: none;
+    color:inherit;
 }
 
 .nav-active{
@@ -67,27 +39,97 @@ header {
     padding-bottom: 10px;
 }
 
-.Hero_section {
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+    gap: 76px;
+}
+
+.call-me{
+    color: #FF4D4F;
+    background-color: #FFEDED;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 24px 8px 24px;
+}
+
+.contacts{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.hero{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
 }
 
-.hero_subtitle {
+.hero-subtitle{
     max-width: 482px;
     font-size: 20px;
     color: #676D77;
 }
 
-
-.hero-left-title {
+.hero-left-title{
     font-size: 72px;
     font-weight: 400;
     margin-bottom: 16px;
 }
 
-.header-destination li a {
-    text-decoration: none;
-    color: inherit;
+
+/* Burger Page -*/ 
+
+.burger-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.burger-title{
+    width: 389px;
+    font-size: 72px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.burger-properties{
+    width: 389px;
+}
+
+.property-values{
+    display: flex;
+    gap: 12px;
+}
+
+.property-icon{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background-color: #F5F5FF;
+    padding: 12px 16px;
+    border-radius: 50px;
+}
+
+.burger-result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.order {
+    background-color: #BE2B20;
+    padding: 12px 24px ;
+    border-radius:  99px;
+    border:none;
+    color: white;
+    font-size: 36px;
+    font-weight: 800;
+    
 }
