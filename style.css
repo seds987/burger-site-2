@@ -9,6 +9,10 @@ body{
     font-family: Rubik;
 }
 
+.burger-img {
+    width: 100%;
+}
+
 .container{
     max-width: 1480px;
     margin: 0 auto;
@@ -20,14 +24,13 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 28px 32px 0 32px;
+    margin-bottom: 36px;
 }
 
 .header-nav{
-    list-style-type: none;
-    display: flex;
-    gap: 60px;
-    font-size: 16px;
+   display: none;
 }
+
 
 .header-nav li a{
     text-decoration: none;
@@ -40,9 +43,11 @@ body{
 }
 
 .logo{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
+
 }
+
 
 .header-logo{
     display: flex;
@@ -59,15 +64,13 @@ body{
 }
 
 .contacts{
-    display: flex;
-    align-items: center;
-    gap: 60px;
+   display: none;
 }
 
 .hero{
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 .hero-subtitle{
@@ -220,3 +223,61 @@ body{
 
 
 
+/* phone nad tablet */
+@media screen and (min-width:768px){
+    .header-nav{
+        list-style-type: none;
+        display: flex;
+        gap: 60px;
+        font-size: 16px;
+    }
+
+
+    .contacts{
+        display: flex;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .mobile-burger{
+        display: none;
+    }
+
+    .hero {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .hero-left-title{
+        font-size: 56px;
+    }
+    
+    .burger-img {
+        width: 80%;
+    }
+    
+    
+}
+
+/* desktop */
+@media screen and (min-width:1280px){
+    .logo{
+        width: 80px;
+        height: 80px;
+    
+    }
+
+    .contacts{
+        gap: 60px;
+    }
+    
+    .header-logo {
+        gap: 70px;
+    }
+
+
+    .hero-left-title{
+        font-size: 72px;
+    }
+    
+}
