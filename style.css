@@ -232,7 +232,15 @@ body{
     background-color: #F5F5FF;
     font-size: 20px;
     color: #949BA6;
+    cursor: pointer;
+    transition: background-color linear 200ms;
 }
+
+.control-button:hover {
+    border: 1px solid #dfdfdf;
+    background-color:#f1f0f0;
+}
+
 
 .burger-bottom {
     gap: 32px;
@@ -240,7 +248,7 @@ body{
     justify-content:left;
     margin-bottom: 68px;
     overflow-x: scroll;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     max-width: 1344px;
     margin: 0 auto;
 }
